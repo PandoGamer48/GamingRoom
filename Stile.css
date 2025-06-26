@@ -1,0 +1,109 @@
+.linea{
+	height: 50px;
+	background: linear-gradient(270deg, red, orange, yellow, green, blue);
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	
+	
+	color: black;
+	text-align: center;
+	font-family: Arial black;
+	font-size: 20px;
+	line-height: 50px;
+	}
+	
+.testo{
+	color: black;
+	font-family: Arial black;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	}
+
+.bordo{
+	color: white;
+	font-family: Arial black;
+	font-size: 20px;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+	padding: 10px;
+	}
+	
+.acquista{
+	color: black;
+	font-family: Arial black;
+	font-size: 20px;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 10px;
+	text-align: center;
+	}
+	
+.bordotabella{
+	color: black;
+	font-family: Arial black;
+	font-size: 20px;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 10px;
+	width: 25%;
+	}
+	
+/* Video in background */
+#video-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
+  max-width: 100vw;
+  max-height: 100vh;
+  object-fit: contain;
+  z-index: -1;
+}
+
+/* Contenuto sopra al video */
+.contenuto {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+}
+
+.lineamobile{
+	height: 50px;
+	background: linear-gradient(270deg, black);
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	
+	
+	color: white;
+	text-align: center;
+	font-family: Arial black;
+	font-size: 20px;
+	line-height: 50px;
+	}
+	
+.descrizione{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	color: black;
+	text-align: center;
+	font-family: Arial black;
+	font-size: 20px;
+	line-height: 25px;
+	}
+
